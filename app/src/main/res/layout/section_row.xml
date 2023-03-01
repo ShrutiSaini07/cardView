@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="150dp"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="170dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/crdView"
+        android:layout_height="130dp"
+        android:outlineAmbientShadowColor="#fff"
+        app:cardElevation="5dp"
+        app:cardCornerRadius="15dp"
+        app:cardMaxElevation="2dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/button_grad" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:text="Section"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
+                android:layout_marginTop="90dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
